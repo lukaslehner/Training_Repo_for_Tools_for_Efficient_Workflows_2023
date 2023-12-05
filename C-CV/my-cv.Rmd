@@ -1,0 +1,192 @@
+---
+title: "CV"
+author: "My name"
+output:
+  pdf_document:
+    latex_engine: pdflatex
+    template: svm-latex-cv.tex
+  word_document: default
+  html_document:
+    df_print: paged
+geometry: margin=1in
+jobtitle: my position, my University
+address: "my Address"
+fontawesome: yes
+email: my email
+phone: $+44 XXX$
+web: lukaslehner.github.io (your URL)
+github: lukaslehner (your username)
+twitter: LukasLehner_ (your username)
+updated: yes
+keywords: R Markdown, academic CV, template
+fontfamily: mathpazo
+fontfamilyoptions: sc, osf
+fontsize: 11pt
+linkcolor: black
+urlcolor: blue
+---
+
+<!-- 
+Space for notes to yourself that are not displayed in the PDF output
+-->
+
+
+# RESEARCH INTERESTS
+
+- XXX
+
+
+
+# Academic Positions
+
+- **My university**, my position \hfill $2023$ - present  \
+
+
+# EDUCATION
+
+- **My university**, my program \hfill $2019$ - present  \
+Dissertation: XX \
+Supervisor: XX
+
+- **My university**, my program \hfill $2018$  \
+
+- **My university**, my program \hfill $2015$  \
+
+# Affiliations
+
+- **My University** \hfill $2023$ \
+Supervisor: XX
+
+
+# RESEARCH
+
+## Working Papers
+
+- "[My title](my URL)", (joint with my co-authors)
+
+- "[My title](my URL)", (joint with my co-authors)
+
+
+## Work in Progress
+
+- "[My title](my URL)", (joint with my co-authors)
+
+- "[My title](my URL)", (joint with my co-authors)
+
+## Journal Publications
+
+
+- "[My title](my URL)", (joint with my co-authors), in the journal, published year.
+
+
+# AWARDS AND GRANTS 
+
+## Awards
+
+- My second award (£ $00,000$) \hfill $2023$ 
+- My first award (€ $0,000$) \hfill $2023$
+
+## Scholarships
+- My second scholarship (£ $00,000$) \hfill $2019$ - $2023$ 
+- My first scholarship (£ $00,000$) \hfill $2019$ - $2023$
+
+
+## Grants
+
+- My second grant (£ $000,000$) \hfill $2019$ - $2023$ 
+- My first grant (£ $00,000$) \hfill $2019$ - $2023$
+ 
+
+# PRESENTATIONS
+
+## Invited Talks
+<!--  -->
+
+**$2024$ (scheduled):** 
+
+**$2023$:** 
+
+**$2022$:** 
+
+**$2021$ and prior:** 
+
+## Conferences and Workshops
+
+**$2023$:** 
+
+**$2022$:** 
+
+**$2021$ and prior:** 
+
+# ENGAGEMENT
+
+## Reports and Book Chapters
+
+- "[My title](my URL)", (joint with my co-authors), in the book, published year.
+
+
+## Selected Interviews and Media Quotes
+
+- "[Title](URL)", Outlet, $12/2022$.
+
+
+# TEACHING
+
+## **My second university**
+
+- My course (postgraduate level) \hfill $2022$ \
+*My position*
+
+- My course (postgraduate level) \hfill $2021$ \
+*My position*
+
+## **My first university**
+
+- My course (postgraduate level) \hfill $2021$ \
+*My position*
+
+- My course (postgraduate level) \hfill $2020$ \
+*My position*
+
+
+# SERVICE
+- **Reviewer**: 
+- **Organizer**: 
+
+# PROFESSIONAL RESEARCH EXPERIENCE
+
+-	**My Employer**, *My position* \hfill $2020$ - $2022$  
+
+
+# SKILLS AND LANGUAGES 
+
+- *Data Analysis:* R
+- *Software*: \LaTeX, HTML, Git, Markdown, Quarto
+-	*Languages:* English (fluent), My native language (native), My other language (intermediate)
+
+# REFERENCES
+
+\begin{paracol}{3}
+
+    \textbf{Prof.\ XX}\\
+    University of XX\\
+    \Telefon\ \( XX\)\\
+    \Letter\ \href{mailto:lukas.lehner@spi.ox.ac.uk}{lukas.lehner\textrm{@}spi.ox.ac.uk} (replace email)
+
+\switchcolumn
+
+    \textbf{Prof.\ XX}\\
+    Universits of XX\\
+    \Telefon\ \(XX\)\\
+    \Letter\ \href{mailto: XX}{Name\textrm{@}email}
+    
+\switchcolumn
+
+    \textbf{Prof.\ XX}\\
+    University of XX\\
+    \Telefon\ \(XX\)\\
+    \Letter\ \href{mailto: XX}{Name\textrm{@}email}
+
+\end{paracol}
+
+
