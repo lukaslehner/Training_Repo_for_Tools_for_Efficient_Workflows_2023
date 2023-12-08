@@ -16,7 +16,7 @@ format: html
 ### Georgia
 
 ### Steffen
-https://file+.vscode-resource.vscode-cdn.net/c%3A/Users/redek/OneDrive%20-%20Nexus365/Desktop/R.jpg?version%3D1702027847641
+![R] (https://file+.vscode-resource.vscode-cdn.net/c%3A/Users/redek/OneDrive%20-%20Nexus365/Desktop/R.jpg?version%3D1702027847641)
 ### Beth
 
 ### Lukas
