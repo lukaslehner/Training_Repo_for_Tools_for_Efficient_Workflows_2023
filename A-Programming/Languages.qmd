@@ -19,6 +19,8 @@ format: html
 ### Beth
 
 ### Lukas
+![R](R.png)
+
 
 ### Felipe
 
