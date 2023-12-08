@@ -7,3 +7,16 @@ format: html
 - Add a table that includes all programming languages that you are able to use.
 
 
+### Tom
+| Language | Level |
+| --- | --- |
+| R | Good |
+| Julia | Good |
+| Python | Not so good |
+| MATLAB | I wish I had never learnt it |
+
+
+### Steffen
+| Language | Level |
+| --- | --- |
+| R | ok |
