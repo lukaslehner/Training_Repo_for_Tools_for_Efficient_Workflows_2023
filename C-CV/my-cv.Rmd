@@ -1,6 +1,6 @@
 ---
 title: "CV"
-author: "My name"
+author: "Lukas"
 output:
   pdf_document:
     latex_engine: pdflatex
@@ -9,14 +9,14 @@ output:
   html_document:
     df_print: paged
 geometry: margin=1in
-jobtitle: my position, my University
+jobtitle: PhD Student, Cam
 address: "my Address"
 fontawesome: yes
-email: my email
-phone: $+44 XXX$
+email: l.gunschera@outlook.com
+phone: $+44 123456789
 web: lukaslehner.github.io (your URL)
-github: lukaslehner (your username)
-twitter: LukasLehner_ (your username)
+github: lukasgunschera (lg)
+twitter: lukasgunschera (lg
 updated: yes
 keywords: R Markdown, academic CV, template
 fontfamily: mathpazo
