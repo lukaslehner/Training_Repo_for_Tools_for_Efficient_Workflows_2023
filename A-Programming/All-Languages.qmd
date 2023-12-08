@@ -12,3 +12,27 @@ format: html
 | R | Proficient |
 | Python | Beginner|
 | Stata | Beginner |
+
+### Tom
+| Language | Level |
+| --- | --- |
+| R | Good |
+| Julia | Good |
+| Python | Not so good |
+| MATLAB | I wish I had never learnt it |
+
+
+### Steffen
+| Language | Level |
+| --- | --- |
+| R | ok |
+
+### Lukas
+| Language  
+|--------|
+
+| R  | 
+| Python   |
+| MatLab |
+| Stan |
+| Inquisit |

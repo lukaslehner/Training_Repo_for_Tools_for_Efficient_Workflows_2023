@@ -1,0 +1,42 @@
+---
+title: "Tom's report"
+author: "Tom Metherell"
+date: "2023-12-08"
+format: 
+    html:
+        toc: true
+        code-fold: true
+---
+
+## Introduction
+
+This is a report about calculating the factorial of some numbers, plus some random images.
+
+Here's a random image!
+
+![](toms-figures/workflow_forking.png)
+
+## Calculations
+
+```{r calc}
+factorials <- data.frame(
+    n = 1:100,
+    factorial = factorial(1:100)
+)
+```
+
+3! = `r factorials$factorial[3]`.
+
+17! = `r format(factorials$factorial[17], scientific = TRUE)`.
+
+89! = `r format(factorials$factorial[89], scientific = TRUE)`.
+
+## More images!
+
+This is the Git logo:
+
+![](toms-figures/git_logo.jpeg)
+
+And this is the Github logo:
+
+![](toms-figures/github_logo.png)
