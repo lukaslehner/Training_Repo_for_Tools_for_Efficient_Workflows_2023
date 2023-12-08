@@ -1,0 +1,143 @@
+---
+title: "CV"
+author: "Tom Metherell"
+output:
+  pdf_document:
+    latex_engine: pdflatex
+    template: svm-latex-cv.tex
+  word_document: default
+  html_document:
+    df_print: paged
+geometry: margin=1in
+jobtitle: "PhD candidate, University College London"
+address: "Centre for Longitudinal Studies, UCL Social Research Institute, 20 Bedford Way, LONDON, WC1H 0AL, United Kingdom"
+fontawesome: yes
+email: thomas.metherell.22@ucl.ac.uk
+web: https://linktr.ee/tom_metherell
+github: tom-metherell
+twitter: tom_metherell
+updated: yes
+keywords: R Markdown, academic CV, template
+fontfamily: mathpazo
+fontfamilyoptions: sc, osf
+fontsize: 11pt
+linkcolor: black
+urlcolor: blue
+---
+
+<!-- 
+Space for notes to yourself that are not displayed in the PDF output
+-->
+
+
+# RESEARCH INTERESTS
+
+- Social media & mental health
+- Missing data handling
+
+# EDUCATION
+
+- **University College London**, UCL-Wellcome 4-year PhD in Mental Health Science \hfill $2022$ - present  \
+Supervisors: Prof. George Ploubidis, Dr Darío Moreno-Agostino, Dr Kaitlyn Regehr, Prof. Joseph Hayes
+
+- **Fitzwilliam College, University of Cambridge**, BA (Hons) Natural Sciences \hfill $2019$ - $2022$ \
+
+# Affiliations
+
+- **University College London** \hfill $2022$ - present \
+- **MRC Cognition & Brain Sciences Unit** \hfill $2023$ - present \
+
+
+# RESEARCH
+
+## Journal Publications
+
+
+- Metherell TE, Ghai S, McCormick EM, Ford TJ, Orben A. "[Digital access constraints predict worse mental health among adolescents during COVID-19](https://www.nature.com/articles/s41598-022-23899-y)". Scientific Reports. 2022 Dec 1;12:19088.
+
+
+# AWARDS AND GRANTS 
+
+## Awards
+
+- My second award (£ $00,000$) \hfill $2023$ 
+- My first award (€ $0,000$) \hfill $2023$
+
+## Scholarships
+- My second scholarship (£ $00,000$) \hfill $2019$ - $2023$ 
+- My first scholarship (£ $00,000$) \hfill $2019$ - $2023$
+
+
+## Grants
+
+- My second grant (£ $000,000$) \hfill $2019$ - $2023$ 
+- My first grant (£ $00,000$) \hfill $2019$ - $2023$
+ 
+
+# PRESENTATIONS
+
+## Invited Talks
+<!--  -->
+
+**$2024$ (scheduled):** 
+
+**$2023$:** 
+
+**$2022$:** 
+
+**$2021$ and prior:** 
+
+## Conferences and Workshops
+
+**$2023$:** 
+
+**$2022$:** 
+
+**$2021$ and prior:** 
+
+# ENGAGEMENT
+
+## Reports and Book Chapters
+
+- "[My title](my URL)", (joint with my co-authors), in the book, published year.
+
+
+## Selected Interviews and Media Quotes
+
+- "[Title](URL)", Outlet, $12/2022$.
+
+
+# TEACHING
+
+## **My second university**
+
+- My course (postgraduate level) \hfill $2022$ \
+*My position*
+
+- My course (postgraduate level) \hfill $2021$ \
+*My position*
+
+## **My first university**
+
+- My course (postgraduate level) \hfill $2021$ \
+*My position*
+
+- My course (postgraduate level) \hfill $2020$ \
+*My position*
+
+
+# SERVICE
+- **Reviewer**: 
+- **Organizer**: 
+
+# PROFESSIONAL RESEARCH EXPERIENCE
+
+-	**My Employer**, *My position* \hfill $2020$ - $2022$  
+
+
+# SKILLS AND LANGUAGES 
+
+- *Data Analysis:* R
+- *Software*: \LaTeX, HTML, Git, Markdown, Quarto
+-	*Languages:* English (fluent), My native language (native), My other language (intermediate)
+

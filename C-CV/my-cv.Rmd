@@ -1,6 +1,6 @@
 ---
 title: "CV"
-author: "Felipe Torres Raposo"
+author: "Lukas"
 output:
   pdf_document:
     latex_engine: pdflatex
@@ -9,6 +9,7 @@ output:
   html_document:
     df_print: paged
 geometry: margin=1in
+
 jobtitle: Postdoctoral Research Fellow, London School of Economics and Political Science
 address: "Centre Building, Houghton St, London WC2A 2AZ"
 fontawesome: yes
@@ -175,30 +176,4 @@ Supervisor: XX
 - *Data Analysis:* R
 - *Software*: \LaTeX, HTML, Git, Markdown, Quarto
 -	*Languages:* English (fluent), Spanish (native), Italian (intermediate)
-
-# REFERENCES
-
-\begin{paracol}{3}
-
-    \textbf{Prof.\ XX}\\
-    University of XX\\
-    \Telefon\ \( XX\)\\
-    \Letter\ \href{mailto:lukas.lehner@spi.ox.ac.uk}{lukas.lehner\textrm{@}spi.ox.ac.uk} (replace email)
-
-\switchcolumn
-
-    \textbf{Prof.\ XX}\\
-    Universits of XX\\
-    \Telefon\ \(XX\)\\
-    \Letter\ \href{mailto: XX}{Name\textrm{@}email}
-    
-\switchcolumn
-
-    \textbf{Prof.\ XX}\\
-    University of XX\\
-    \Telefon\ \(XX\)\\
-    \Letter\ \href{mailto: XX}{Name\textrm{@}email}
-
-\end{paracol}
-
 
