@@ -11,6 +11,7 @@ format: html
 ### Gerome 
 
 ### Tom
+![](https://upload.wikimedia.org/wikipedia/commons/thumb/1/1f/Julia_Programming_Language_Logo.svg/1280px-Julia_Programming_Language_Logo.svg.png)
 
 ### Georgia
 
@@ -19,8 +20,12 @@ https://file+.vscode-resource.vscode-cdn.net/c%3A/Users/redek/OneDrive%20-%20Nex
 ### Beth
 
 ### Lukas
+![R](R.png)
+
 
 ### Felipe
+
+![R](elephant.png)
 
 ### Irma 
 
