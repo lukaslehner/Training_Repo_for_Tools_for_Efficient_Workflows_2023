@@ -13,3 +13,9 @@ format: html
 | Julia | Good |
 | Python | Not so good |
 | MATLAB | I wish I had never learnt it |
+
+
+### Steffen
+| Language | Level |
+| --- | --- |
+| R | ok |
