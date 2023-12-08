@@ -1,6 +1,6 @@
 ---
 title: "CV"
-author: "Tom Metherell"
+author: "Lukas"
 output:
   pdf_document:
     latex_engine: pdflatex
@@ -9,13 +9,14 @@ output:
   html_document:
     df_print: paged
 geometry: margin=1in
-jobtitle: "PhD candidate, University College London"
-address: "Centre for Longitudinal Studies, UCL Social Research Institute, 20 Bedford Way, LONDON, WC1H 0AL, United Kingdom"
+jobtitle: PhD Student, Cam
+address: "my Address"
 fontawesome: yes
-email: thomas.metherell.22@ucl.ac.uk
-web: https://linktr.ee/tom_metherell
-github: tom-metherell
-twitter: tom_metherell
+email: l.gunschera@outlook.com
+phone: $+44 123456789
+web: lukaslehner.github.io (your URL)
+github: lukasgunschera (lg)
+twitter: lukasgunschera (lg
 updated: yes
 keywords: R Markdown, academic CV, template
 fontfamily: mathpazo
