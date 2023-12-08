@@ -1,0 +1,338 @@
+\documentclass[11pt,]{article}
+\usepackage[sc, osf]{mathpazo}
+\usepackage{amssymb,amsmath}
+\usepackage{ifxetex,ifluatex}
+\usepackage{fixltx2e} % provides \textsubscript
+\ifnum 0\ifxetex 1\fi\ifluatex 1\fi=0 % if pdftex
+  \usepackage[T1]{fontenc}
+  \usepackage[utf8]{inputenc}
+\else % if luatex or xelatex
+  \ifxetex
+    \usepackage{mathspec}
+  \else
+    \usepackage{fontspec}
+  \fi
+  \defaultfontfeatures{Ligatures=TeX,Scale=MatchLowercase}
+\fi
+% use upquote if available, for straight quotes in verbatim environments
+\IfFileExists{upquote.sty}{\usepackage{upquote}}{}
+% use microtype if available
+\IfFileExists{microtype.sty}{%
+\usepackage{microtype}
+\UseMicrotypeSet[protrusion]{basicmath} % disable protrusion for tt fonts
+}{}
+\usepackage[margin=1in]{geometry}
+
+
+
+
+\setlength{\emergencystretch}{3em}  % prevent overfull lines
+\providecommand{\tightlist}{%
+  \setlength{\itemsep}{0pt}\setlength{\parskip}{0pt}}
+\setcounter{secnumdepth}{0}
+% Redefines (sub)paragraphs to behave more like sections
+\ifx\paragraph\undefined\else
+\let\oldparagraph\paragraph
+\renewcommand{\paragraph}[1]{\oldparagraph{#1}\mbox{}}
+\fi
+\ifx\subparagraph\undefined\else
+\let\oldsubparagraph\subparagraph
+\renewcommand{\subparagraph}[1]{\oldsubparagraph{#1}\mbox{}}
+\fi
+
+% Now begins the stuff that I added.
+% ----------------------------------
+
+% Custom section fonts
+\usepackage{sectsty}
+\sectionfont{\rmfamily\mdseries\large\bf}
+\subsectionfont{\rmfamily\mdseries\normalsize\itshape}
+
+
+% Make lists without bullets
+\renewenvironment{itemize}{
+  \begin{list}{}{
+    \setlength{\leftmargin}{1.5em}
+  }
+}{
+  \end{list}
+}
+
+
+% Make parskips rather than indent with lists.
+\usepackage{parskip}
+\usepackage{titlesec}
+\titlespacing\section{0pt}{12pt plus 4pt minus 2pt}{4pt plus 2pt minus 2pt}
+\titlespacing\subsection{0pt}{12pt plus 4pt minus 2pt}{4pt plus 2pt minus 2pt}
+
+% Use fontawesome. Note: you'll need TeXLive 2015. Update.
+\usepackage{fontawesome}
+
+% Fancyhdr, as I tend to do with these personal documents.
+\usepackage{fancyhdr,lastpage}
+\pagestyle{fancy}
+\renewcommand{\headrulewidth}{0.0pt}
+\renewcommand{\footrulewidth}{0.0pt}
+\lhead{}
+\chead{}
+\rhead{}
+\lfoot{
+\cfoot{\scriptsize  Steffen Redeker - CV }}
+\rfoot{\scriptsize \thepage/{\hypersetup{linkcolor=black}\pageref{LastPage}}}
+
+% Lukas: Add packages for references section
+%\usepackage[a5paper, landscape]{geometry} % demo only
+\usepackage{marvosym} % For cool symbols.
+
+\usepackage{paracol}
+
+
+% Always load hyperref last.
+\usepackage{hyperref}
+\PassOptionsToPackage{usenames,dvipsnames}{color} % color is loaded by hyperref
+
+\hypersetup{unicode=true,
+            pdftitle={Steffen Redeker:  CV (Curriculum Vitae)},
+            pdfauthor={Steffen Redeker},
+            pdfkeywords={R Markdown, academic CV, template},
+            colorlinks=true,
+            linkcolor=black,
+            citecolor=Blue,
+            urlcolor=blue,
+            breaklinks=true, bookmarks=true}
+\urlstyle{same}  % don't use monospace font for urls
+
+\begin{document}
+
+
+\centerline{\huge \bf Steffen Redeker}
+
+\vspace{2 mm}
+
+\hrule
+
+\vspace{2 mm}
+
+\moveleft.5\hoffset\centerline{Phd Student, Oxford University}
+\moveleft.5\hoffset\centerline{my Address}
+\moveleft.5\hoffset\centerline{ \faEnvelopeO \hspace{1 mm} \href{mailto:}{\tt \href{mailto:steffen.redeker@spi.ox.ac.uk}{\nolinkurl{steffen.redeker@spi.ox.ac.uk}}} \hspace{1 mm}  \faPhone \hspace{1 mm}  \(+44 XXX\)  \hspace{1 mm}  \faGithub \hspace{1 mm} \href{http://github.com/steffenredeker}{\tt steffenredeker} \hspace{1 mm}   \faTwitter \hspace{1 mm} \href{https:/twitter.com/steffen\_redeker}{\tt steffen\_redeker} \hspace{1 mm}  }
+\moveleft.5\hoffset\centerline{ \faGlobe \hspace{1 mm} \href{http://\url{https://www.redekersteffen.com}}{\tt \url{https://www.redekersteffen.com}}    | \emph{Updated:} \today }
+
+\vspace{2 mm}
+
+\hrule
+
+
+\section{RESEARCH INTERESTS}\label{research-interests}
+
+\begin{itemize}
+\tightlist
+\item
+  Political economy
+\item
+  Corporate tax avoidance
+\end{itemize}
+
+\section{EDUCATION}\label{education}
+
+\begin{itemize}
+\item
+  \textbf{University of Oxford}, DPhil in Social Policy \hfill \(2023\)
+  - present\\
+  Supervisors: Marek Naczyk and Tim Vlandas
+\item
+  \textbf{Columbia University}, European History, Politics and Society
+  \hfill \(2021\) - \(2022\)\\
+\item
+  \textbf{Berlin School of Economics and Law}, Economics \hfill \(2017\)
+  - \(2021\)\\
+\end{itemize}
+
+\section{RESEARCH}\label{research}
+
+\subsection{Working Papers}\label{working-papers}
+
+\begin{itemize}
+\item
+  ``\href{my\%20URL}{My title}'', (joint with my co-authors)
+\item
+  ``\href{my\%20URL}{My title}'', (joint with my co-authors)
+\end{itemize}
+
+\subsection{Work in Progress}\label{work-in-progress}
+
+\begin{itemize}
+\item
+  ``\href{my\%20URL}{My title}'', (joint with my co-authors)
+\item
+  ``\href{my\%20URL}{My title}'', (joint with my co-authors)
+\end{itemize}
+
+\subsection{Journal Publications}\label{journal-publications}
+
+\begin{itemize}
+\tightlist
+\item
+  ``\href{my\%20URL}{My title}'', (joint with my co-authors), in the
+  journal, published year.
+\end{itemize}
+
+\section{AWARDS AND GRANTS}\label{awards-and-grants}
+
+\subsection{Awards}\label{awards}
+
+\begin{itemize}
+\tightlist
+\item
+  My second award (£ \(00,000\)) \hfill \(2023\)
+\item
+  My first award (€ \(0,000\)) \hfill \(2023\)
+\end{itemize}
+
+\subsection{Scholarships}\label{scholarships}
+
+\begin{itemize}
+\tightlist
+\item
+  My second scholarship (£ \(00,000\)) \hfill \(2019\) - \(2023\)
+\item
+  My first scholarship (£ \(00,000\)) \hfill \(2019\) - \(2023\)
+\end{itemize}
+
+\subsection{Grants}\label{grants}
+
+\begin{itemize}
+\tightlist
+\item
+  My second grant (£ \(000,000\)) \hfill \(2019\) - \(2023\)
+\item
+  My first grant (£ \(00,000\)) \hfill \(2019\) - \(2023\)
+\end{itemize}
+
+\section{PRESENTATIONS}\label{presentations}
+
+\subsection{Invited Talks}\label{invited-talks}
+
+\textbf{\(2024\) (scheduled):}
+
+\textbf{\(2023\):}
+
+\textbf{\(2022\):}
+
+\textbf{\(2021\) and prior:}
+
+\subsection{Conferences and Workshops}\label{conferences-and-workshops}
+
+\textbf{\(2023\):}
+
+\textbf{\(2022\):}
+
+\textbf{\(2021\) and prior:}
+
+\section{ENGAGEMENT}\label{engagement}
+
+\subsection{Reports and Book Chapters}\label{reports-and-book-chapters}
+
+\begin{itemize}
+\tightlist
+\item
+  ``\href{my\%20URL}{My title}'', (joint with my co-authors), in the
+  book, published year.
+\end{itemize}
+
+\subsection{Selected Interviews and Media
+Quotes}\label{selected-interviews-and-media-quotes}
+
+\begin{itemize}
+\tightlist
+\item
+  ``\href{URL}{Title}'', Outlet, \(12/2022\).
+\end{itemize}
+
+\section{TEACHING}\label{teaching}
+
+\subsection{\texorpdfstring{\textbf{My second
+university}}{My second university}}\label{my-second-university}
+
+\begin{itemize}
+\item
+  My course (postgraduate level) \hfill \(2022\)\\
+  \emph{My position}
+\item
+  My course (postgraduate level) \hfill \(2021\)\\
+  \emph{My position}
+\end{itemize}
+
+\subsection{\texorpdfstring{\textbf{My first
+university}}{My first university}}\label{my-first-university}
+
+\begin{itemize}
+\item
+  My course (postgraduate level) \hfill \(2021\)\\
+  \emph{My position}
+\item
+  My course (postgraduate level) \hfill \(2020\)\\
+  \emph{My position}
+\end{itemize}
+
+\section{SERVICE}\label{service}
+
+\begin{itemize}
+\tightlist
+\item
+  \textbf{Reviewer}:
+\item
+  \textbf{Organizer}:
+\end{itemize}
+
+\section{PROFESSIONAL RESEARCH
+EXPERIENCE}\label{professional-research-experience}
+
+\begin{itemize}
+\tightlist
+\item
+  \textbf{My Employer}, \emph{My position} \hfill \(2020\) - \(2022\)
+\end{itemize}
+
+\section{SKILLS AND LANGUAGES}\label{skills-and-languages}
+
+\begin{itemize}
+\tightlist
+\item
+  \emph{Data Analysis:} R
+\item
+  \emph{Software}: \LaTeX, HTML, Git, Markdown, Quarto
+\item
+  \emph{Languages:} English (fluent), My native language (native), My
+  other language (intermediate)
+\end{itemize}
+
+\section{REFERENCES}\label{references}
+
+\begin{paracol}{3}
+
+    \textbf{Prof.\ XX}\\
+    University of XX\\
+    \Telefon\ \( XX\)\\
+    \Letter\ \href{mailto:lukas.lehner@spi.ox.ac.uk}{lukas.lehner\textrm{@}spi.ox.ac.uk} (replace email)
+
+\switchcolumn
+
+    \textbf{Prof.\ XX}\\
+    Universits of XX\\
+    \Telefon\ \(XX\)\\
+    \Letter\ \href{mailto: XX}{Name\textrm{@}email}
+    
+\switchcolumn
+
+    \textbf{Prof.\ XX}\\
+    University of XX\\
+    \Telefon\ \(XX\)\\
+    \Letter\ \href{mailto: XX}{Name\textrm{@}email}
+
+\end{paracol}
+
+% Lukas: Add references section either here or directly in Rmd File
+
+
+\end{document}

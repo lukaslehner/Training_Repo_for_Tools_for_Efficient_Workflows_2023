@@ -2,12 +2,12 @@
 title: "CV"
 author: "Steffen Redeker"
 output:
-  html_document:
-    df_print: paged
-  word_document: default
   pdf_document:
     latex_engine: pdflatex
     template: svm-latex-cv.tex
+  word_document: default
+  html_document:
+    df_print: paged
 geometry: margin=1in
 jobtitle: Phd Student, Oxford University
 address: "my Address"
@@ -16,7 +16,7 @@ email: steffen.redeker@spi.ox.ac.uk
 phone: $+44 XXX$
 web: https://www.redekersteffen.com
 github: steffenredeker
-twitter: @steffen_redeker
+twitter: steffen_redeker
 updated: yes
 keywords: R Markdown, academic CV, template
 fontfamily: mathpazo
