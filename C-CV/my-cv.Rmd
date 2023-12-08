@@ -1,6 +1,6 @@
 ---
 title: "CV"
-author: "My name"
+author: "Tom Metherell"
 output:
   pdf_document:
     latex_engine: pdflatex
@@ -9,14 +9,13 @@ output:
   html_document:
     df_print: paged
 geometry: margin=1in
-jobtitle: my position, my University
-address: "my Address"
+jobtitle: "PhD candidate, University College London"
+address: "Centre for Longitudinal Studies, UCL Social Research Institute, 20 Bedford Way, LONDON, WC1H 0AL, United Kingdom"
 fontawesome: yes
-email: my email
-phone: $+44 XXX$
-web: lukaslehner.github.io (your URL)
-github: lukaslehner (your username)
-twitter: LukasLehner_ (your username)
+email: thomas.metherell.22@ucl.ac.uk
+web: https://linktr.ee/tom_metherell
+github: tom-metherell
+twitter: tom_metherell
 updated: yes
 keywords: R Markdown, academic CV, template
 fontfamily: mathpazo
@@ -33,50 +32,28 @@ Space for notes to yourself that are not displayed in the PDF output
 
 # RESEARCH INTERESTS
 
-- XXX
-
-
-
-# Academic Positions
-
-- **My university**, my position \hfill $2023$ - present  \
-
+- Social media & mental health
+- Missing data handling
 
 # EDUCATION
 
-- **My university**, my program \hfill $2019$ - present  \
-Dissertation: XX \
-Supervisor: XX
+- **University College London**, UCL-Wellcome 4-year PhD in Mental Health Science \hfill $2022$ - present  \
+Supervisors: Prof. George Ploubidis, Dr Darío Moreno-Agostino, Dr Kaitlyn Regehr, Prof. Joseph Hayes
 
-- **My university**, my program \hfill $2018$  \
-
-- **My university**, my program \hfill $2015$  \
+- **Fitzwilliam College, University of Cambridge**, BA (Hons) Natural Sciences \hfill $2019$ - $2022$ \
 
 # Affiliations
 
-- **My University** \hfill $2023$ \
-Supervisor: XX
+- **University College London** \hfill $2022$ - present \
+- **MRC Cognition & Brain Sciences Unit** \hfill $2023$ - present \
 
 
 # RESEARCH
 
-## Working Papers
-
-- "[My title](my URL)", (joint with my co-authors)
-
-- "[My title](my URL)", (joint with my co-authors)
-
-
-## Work in Progress
-
-- "[My title](my URL)", (joint with my co-authors)
-
-- "[My title](my URL)", (joint with my co-authors)
-
 ## Journal Publications
 
 
-- "[My title](my URL)", (joint with my co-authors), in the journal, published year.
+- Metherell TE, Ghai S, McCormick EM, Ford TJ, Orben A. "[Digital access constraints predict worse mental health among adolescents during COVID-19](https://www.nature.com/articles/s41598-022-23899-y)". Scientific Reports. 2022 Dec 1;12:19088.
 
 
 # AWARDS AND GRANTS 
